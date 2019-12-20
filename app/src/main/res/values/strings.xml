@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MonTypes</string>
+    
+    <string name="license_button_title">CC BY-NC-SA 2.5</string>
+    <string name="license_title">License</string>
+    <string name="license_message"><![CDATA[Work based on <i>Bulbapedias Type Chart</i>, adapted for mobile consumption by <i>the Developer</i>.<br><br><tt>Attribution-NonCommercial-ShareAlike 2.5 Generic (CC BY-NC-SA 2.5)</tt></br>]]></string>
+    <string name="license_contact_title">👨‍💻</string>
+    <string name="license_contact_link">https://github.com/mariobodemann/montypes</string>
+    <string name="license_datasource_title">Bulbapedia</string>
+    <string name="license_datasource_link">https://bulbapedia.bulbagarden.net/wiki/Type#Type_chart</string>
+    <string name="license_cc_title">Commons</string>
+    <string name="license_cc_link">https://creativecommons.org/licenses/by-nc-sa/2.5/</string>
+    
+</resources>
