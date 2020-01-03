@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MonTypes</string>
+    <string name="app_name">MonTypes 👻🧟🧟‍♂️🤖</string>
     
     <string name="license_button_title">CC BY-NC-SA 2.5</string>
     <string name="license_title">License</string>
@@ -13,4 +13,10 @@
     <string name="license_cc_title">Commons</string>
     <string name="license_cc_link">https://creativecommons.org/licenses/by-nc-sa/2.5/</string>
     
+    <string name="select_attack_title">⚔️ ️Attack move type ⚔️</string>
+    <string name="select_defence_title">🛡️ Defending monster type ️🛡️</string>
+    <string name="select_all_title">All️</string>
+    <string name="select_none_title">None️</string>
+    
+    <string name="url_bulbapedia_type_template" translateable="false">https://bulbapedia.bulbagarden.net/wiki/%0$s_(type)#Pok.C3.A9mon</string>
 </resources>
