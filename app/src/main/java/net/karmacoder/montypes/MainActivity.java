@@ -76,8 +76,8 @@ public class MainActivity extends Activity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.main);
 
-    resultText = findViewById(R.id.main_result);
-    copyrightText = findViewById(R.id.main_copyright);
+    resultText = (TextView)findViewById(R.id.main_result);
+    copyrightText = (TextView)findViewById(R.id.main_copyright);
     spinner = findViewById(R.id.main_spinner);
     
 		vm = new MonViewModel(
@@ -290,11 +290,7 @@ public class MainActivity extends Activity {
 
       builder         
         .append("<b>")
-        .append("<a href=\"")
-        .append(getString(R.string.url_bulbapedia_type_template, attack.toLowerCase()))
-        .append("\">")
         .append(attack)
-        .append("</a>")
         .append("</b> deals ");
 
       final String intent = "<br>&nbsp;&nbsp;&nbsp;&nbsp;";
@@ -305,11 +301,8 @@ public class MainActivity extends Activity {
           .append(intent)
           .append(multiplyer)
           .append(" damage to <b>")
-          .append("<a href=\"")
-          .append(getString(R.string.url_bulbapedia_type_template, defence.toLowerCase()))
-          .append("\">")
           .append(defence)
-          .append("</a></b>");
+          .append("</b>");
       }
 
       separation = "<br><br>";
@@ -329,11 +322,7 @@ public class MainActivity extends Activity {
       
       builder         
         .append("<b>")
-        .append("<a href=\"")
-        .append(getString(R.string.url_bulbapedia_type_template, defence))
-        .append("\">")
         .append(defence)
-        .append("</a>")
         .append("</b> gets hurt ");
 
       final String intent = "<br>&nbsp;&nbsp;&nbsp;&nbsp;";
@@ -344,11 +333,7 @@ public class MainActivity extends Activity {
           .append(intent)
           .append(multiplyer)
           .append("x by <b>")
-          .append("<a href=\"")
-          .append(getString(R.string.url_bulbapedia_type_template, attack))
-          .append("\">")
           .append(attack)
-          .append("</a>")
           .append("</b>");
       }
 
